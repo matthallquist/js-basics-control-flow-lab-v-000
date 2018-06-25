@@ -15,3 +15,14 @@ function scuberGreetingForFeet(distance) {
   }
   return result;
 }
+
+function ternaryCheckCity(cityName) {
+  let result
+  if (cityName === "NYC") {
+    result = "Ok, sounds good."
+  }
+  else {
+    result = "No go."
+  }
+  return result;
+}
