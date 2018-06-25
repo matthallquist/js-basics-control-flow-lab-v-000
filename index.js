@@ -26,3 +26,14 @@ function ternaryCheckCity(cityName) {
   }
   return result;
 }
+
+function switchOnCharmFromTip(tip) {
+  let result
+  if (tip > 30) {
+    result = "Thank you so much."
+  }
+  else {
+    result = "Thank you."
+  }
+  return result;
+}
